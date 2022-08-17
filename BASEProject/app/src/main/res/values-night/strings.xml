@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="teacher_button">расписание для преподавателя</string>
+    <string name="student_button">расписание для студентов</string>
+    <string name="hse_logo">hse_logo</string>
+    <string name="week_schedule">Расписание на неделю</string>
+    <string name="day_schedule">Расписание на день</string>
+    <string name="DateWeekFormat">EEEE, dd MMMM</string>
+    <string name="HourMinuteFormat">HH:mm</string>
+    <string name="Lection">Лекция</string>
+    <string name="PracticeLesson">Практическое занятие</string>
+    <string name="LongDateFormat">yyyy-MM-dd HH:mm</string>
+    <string name="FullDateTimeFormat">yyyy-MM-dd HH:mm:ss.SSSZ</string>
+    <string name="NoLesson">Нет пар</string>
+    <string name="ObjectLesson">Дисциплина</string>
+    <string name="Cabinet">Кабинет</string>
+    <string name="Corp">Корпус</string>
+    <string name="Teacher">Преподаватель</string>
+    <string name="LessonNow">Идет пара</string>
+</resources>

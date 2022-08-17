@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="10dp"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/timeStart"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/timeEnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/imageView"
+        android:layout_width="2dp"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/schedule" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/scheduleType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAllCaps="true"
+            android:textColor="@color/SecondaryColor"
+            android:textStyle="bold"
+            android:paddingVertical="2dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/scheduleName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:paddingVertical="2dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/scheduleCabinet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:paddingVertical="2dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/scheduleTeacher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingVertical="2dp"
+            android:text="TextView" />
+
+    </LinearLayout>
+</LinearLayout>

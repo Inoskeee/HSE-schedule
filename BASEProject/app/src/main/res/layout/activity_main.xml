@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/hse_logo"
+        android:layout_width="260dp"
+        android:layout_height="363dp"
+        android:contentDescription="@string/hse_logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.035"
+        app:srcCompat="@drawable/logo_hse" />
+
+    <Button
+        android:id="@+id/student_button"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:insetLeft="0dp"
+        android:insetRight="0dp"
+        android:text="@string/student_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hse_logo"
+        app:layout_constraintVertical_bias="0.068" />
+
+    <Button
+        android:id="@+id/teacher_button"
+        android:layout_width="330dp"
+        android:layout_height="48dp"
+        android:autoSizeMaxTextSize="14sp"
+        android:autoSizeMinTextSize="10sp"
+        android:autoSizeStepGranularity="2sp"
+        android:ellipsize="end"
+        android:insetLeft="0dp"
+        android:insetRight="0dp"
+        android:text="@string/teacher_button"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/student_button"
+        app:layout_constraintVertical_bias="0.042"
+        tools:ignore="TouchTargetSizeCheck"
+        tools:targetApi="o" />
+
+    <Button
+        android:id="@+id/settings_button"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="@string/settings_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/teacher_button"
+        app:layout_constraintVertical_bias="0.066" />
+</androidx.constraintlayout.widget.ConstraintLayout>

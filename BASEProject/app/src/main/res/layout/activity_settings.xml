@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity">
+
+    <LinearLayout
+        android:layout_width="164dp"
+        android:layout_height="235dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.072"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.029">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Укажите фото:" />
+
+        <ImageView
+            android:id="@+id/user_avatar"
+            android:layout_width="155dp"
+            android:layout_height="155dp"
+            android:contentDescription="Avatar"
+            tools:ignore="ImageContrastCheck"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <Button
+            android:id="@+id/take_picture"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Сделать фото" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="194dp"
+        android:layout_height="235dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.947"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.029">
+
+        <EditText
+            android:id="@+id/get_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Укажите ваше имя:"
+            android:inputType="textPersonName"
+            android:minHeight="48dp" />
+
+        <TextView
+            android:id="@+id/light_level"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Текущая освещенность:" />
+
+        <TextView
+            android:id="@+id/all_sensors"
+            android:layout_width="match_parent"
+            android:layout_height="171dp"
+            android:text="Доступные датчики:" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="Сохранить"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

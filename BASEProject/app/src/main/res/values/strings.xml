@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Timetable for HSE FE</string>
+    <string name="teacher_button">расписание для преподавателя</string>
+    <string name="student_button">расписание для студентов</string>
+    <string name="hse_logo">hse_logo</string>
+    <string name="week_schedule">Расписание\nна неделю</string>
+    <string name="day_schedule">Расписание\nна день</string>
+    <string name="settings_button">Настройки</string>
+    <string name="group">Выберите группу:</string>
+    <string name="teacherSelect">Выберите преподавателя:</string>
+    <string name="time">Сейчас:</string>
+    <string name="status">Нет пар</string>
+    <string name="subject">Дициплина:</string>
+    <string name="cabinet">Кабинет:</string>
+    <string name="corp">Корпус:</string>
+    <string name="teacher">Преподаватель:</string>
+    <string name="title">TextView</string>
+    <string name="DateWeekFormat">EEEE, dd MMMM</string>
+    <string name="HourMinuteFormat">HH:mm</string>
+    <string name="Lection">Лекция</string>
+    <string name="PracticeLesson">Практическое занятие</string>
+    <string name="HourMinuteWeekday">HH:mm, EEEE</string>
+    <string name="LongDateFormat">yyyy-MM-dd HH:mm</string>
+    <string name="FullDateFormatter">yyyy-MM-dd HH:mm:ss.SSS</string>
+    <string name="FullDateTimeFormat">yyyy-MM-dd HH:mm:ss.SSSZ</string>
+    <string name="NoLesson">Нет пар</string>
+    <string name="ObjectLesson">Дисциплина</string>
+    <string name="Cabinet">Кабинет</string>
+    <string name="Corp">Корпус</string>
+    <string name="Teacher">Преподаватель</string>
+    <string name="LessonNow">Идет пара</string>
+</resources>
+
